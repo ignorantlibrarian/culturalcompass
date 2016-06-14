@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>Cultural Compass: An App for Cultural Accounting</title>
+<style>
+
+td {
+    border-collapse: collapse; 
+    border-style: inset;
+
+}
+
+table {
+    border-spacing: 2px;
+}
+
+thead td {
+    border: 0;
+    font-weight: bold;
+
+}
+
+.labels {
+text-shadow: 1px 1px 2px black; 
+}
+
+.button-cell {
+	border: 0;
+}
+
+.dataCells {
+	background: white;
+}
+
+</style>
+</head>
+<body>
+	<div id = "saveButton">
+	</div>
+	<div id="table">
+	</div>
+	<div id = "graphButtons">
+	</div>
+	<div id="chart">
+	</div>
+	<a id="download">
+	</a>
+</body>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="./scripts/culturalCompass.js"></script>
+<script src="https://spreadsheets.google.com/feeds/cells/1mOIz1rs_5m8aiRlBKI6yNd6Z_VMxf6AI_IFl3V1diIA/od6/public/values?alt=json-in-script&callback=mapEntries"></script>
