@@ -1,4 +1,4 @@
-# culturalcompass
+# Cultural Compass (beta)
 ###An interactive visualization for qualitative accounting
 
 We want to look beyond purely monetary measures of value, and measure and integrate indicators that are both quantitative and qualitative. Consider, for example, longevity in a population. This is a brute average number (quantity), but it indicates something about the quality of health and security enjoyed by the population (quality). We categorize the indicators according to thee abstract and general qualities (taking inspiration from the three Gunas of Hindu philosophy): the Pure, the Passionate, and the Dark. 
